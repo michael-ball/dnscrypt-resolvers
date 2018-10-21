@@ -1,9 +1,11 @@
 # public-resolvers
 
 This is an extensive list of public DNS resolvers supporting the
-DNSCrypt and DNS-over-HTTP2 protocols.
+DNSCrypt and DNS-over-HTTP2 protocols, with the Google, 
+Cloudflare and Cleanbrowsing resolvers removed.
 
-This list is maintained by Frank Denis <j @ dnscrypt [.] info>
+This is forked from the original list maintained by Frank Denis
+<j @ dnscrypt [.] info>
 
 Warning: it includes servers that may censor content, servers that don't
 verify DNSSEC records, and servers that will collect and monetize your
@@ -16,8 +18,8 @@ To use that list, add this to the `[sources]` section of your
 `dnscrypt-proxy.toml` configuration file:
 
     [sources.'public-resolvers']
-    urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v2/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v2/public-resolvers.md']
-    minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+    urls = ['https://raw.githubusercontent.com/michael-ball/dnscrypt-resolvers/master/v2/public-resolvers.md']
+    minisign_key = 'RWT+6V2lFusM52HVUoqE/KDm8eo8u1952j3Ycd3Ay84dxz8KL0uzqjFj'
     cache_file = 'public-resolvers.md'
 
 --
@@ -108,67 +110,6 @@ Warning: modifies your queries to include a copy of your network
 address when forwarding them to a selection of companies and organizations.
 
 sdns://AQAAAAAAAAAAD1syNjIwOjA6Y2NjOjoyXSC3NRFAIG8iXT4r2CLX_WkeocM8yNZmjQy-BL-rykP7eRsyLmRuc2NyeXB0LWNlcnQub3BlbmRucy5jb20
-
-## cleanbrowsing-adult
-
-Blocks access to all adult, pornographic and explicit sites. It does
-not block proxy or VPNs, nor mixed-content sites. Sites like Reddit
-are allowed. Google and Bing are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AQMAAAAAAAAAEzE4NS4yMjguMTY4LjEwOjg0NDMgvKwy-tVDaRcfCDLWB1AnwyCM7vDo6Z-UGNx3YGXUjykRY2xlYW5icm93c2luZy5vcmc
-
-## cleanbrowsing-adult-ipv6
-
-Blocks access to all adult, pornographic and explicit sites. It does
-not block proxy or VPNs, nor mixed-content sites. Sites like Reddit
-are allowed. Google and Bing are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AQMAAAAAAAAAFVsyYTBkOjJhMDA6MTo6MV06ODQ0MyC8rDL61UNpFx8IMtYHUCfDIIzu8Ojpn5QY3HdgZdSPKRFjbGVhbmJyb3dzaW5nLm9yZw
-
-## cleanbrowsing-family
-
-Blocks access to all adult, pornographic and explicit sites. It also
-blocks proxy and VPN domains that are used to bypass the filters.
-Mixed content sites (like Reddit) are also blocked. Google, Bing and
-Youtube are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AQMAAAAAAAAAFDE4NS4yMjguMTY4LjE2ODo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn
-
-## cleanbrowsing-family-ipv6
-
-Blocks access to all adult, pornographic and explicit sites. It also
-blocks proxy and VPN domains that are used to bypass the filters.
-Mixed content sites (like Reddit) are also blocked. Google, Bing and
-Youtube are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AQMAAAAAAAAAFFsyYTBkOjJhMDA6MTo6XTo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn
-
-## doh-cleanbrowsing-security
-
-Block access to phishing, malware and malicious domains. It does not block adult content.
-By https://cleanbrowsing.org/
-
-sdns://AQMAAAAAAAAAEjE4NS4yMjguMTY4Ljk6ODQ0MyC8rDL61UNpFx8IMtYHUCfDIIzu8Ojpn5QY3HdgZdSPKRFjbGVhbmJyb3dzaW5nLm9yZw
-
-## cloudflare
-
-Cloudflare DNS (anycast) - aka 1.1.1.1 / 1.0.0.1
-
-sdns://AgcAAAAAAAAABzEuMC4wLjGgENk8mGSlIfMGXMOlIlCcKvq7AVgcrZxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk
-
-## cloudflare-ipv6
-
-Cloudflare DNS over IPv6 (anycast)
-
-sdns://AgcAAAAAAAAAGVsyNjA2OjQ3MDA6NDcwMDo6MTExMV06NTOgENk8mGSlIfMGXMOlIlCcKvq7AVgcrZxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk
 
 ## commons-host
 
@@ -474,41 +415,6 @@ https://blahdns.com/
 
 sdns://AgMAAAAAAAAADjEwOC42MS4yMDEuMTE5AA9kb2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
-## doh-cleanbrowsing-adult
-
-Blocks access to all adult, pornographic and explicit sites. It does
-not block proxy or VPNs, nor mixed-content sites. Sites like Reddit
-are allowed. Google and Bing are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnEi9kb2gvYWR1bHQtZmlsdGVyLw
-
-## doh-cleanbrowsing-family
-
-Blocks access to all adult, pornographic and explicit sites. It also
-blocks proxy and VPN domains that are used to bypass the filters.
-Mixed content sites (like Reddit) are also blocked. Google, Bing and
-Youtube are set to the Safe Mode.
-
-By https://cleanbrowsing.org/
-
-sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnEy9kb2gvZmFtaWx5LWZpbHRlci8
-
-## doh-cleanbrowsing-security
-
-Block access to phishing, malware and malicious domains. It does not block adult content.
-By https://cleanbrowsing.org/
-
-sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnFS9kb2gvc2VjdXJpdHktZmlsdGVyLw
-
-## doh-crypto-sx
-
-DNS-over-HTTPS server. Backend hosted by Scaleway, globally cached via Cloudflare.
-Maintained by Frank Denis.
-
-sdns://AgcAAAAAAAAADTEwNC4xOS4xOTguMjkgHdhQioxWWQQ5fHhkUeCPV2E888inI_bzef1MOFi2858NZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
-
 ## doh-ibksturm
 
 doh-server (nginx - doh-httpproxy - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
@@ -549,12 +455,6 @@ sdns://AQYAAAAAAAAAFDE4NS4xMjEuMTc3LjE3Nzo1MzUzIBpq0KMrTFphppXRU2cNaasWkD-ew_f2T
 Fusl's public secondary OpenNIC Tier2 Anycast DNS Resolver
 
 sdns://AQYAAAAAAAAAFDE2OS4yMzkuMjAyLjIwMjo1MzUzIBpq0KMrTFphppXRU2cNaasWkD-ew_f2TxPlNaMYsiilHTIuZG5zY3J5cHQtY2VydC5kbnNyZWMubWVvLndz
-
-## google
-
-Google DNS (anycast)
-
-sdns://AgUAAAAAAAAAACAe9iTP_15r07rd8_3b_epWVGfjdymdx-5mdRZvMAzBuQ5kbnMuZ29vZ2xlLmNvbQ0vZXhwZXJpbWVudGFs
 
 ## gridns-sg
 
