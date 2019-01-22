@@ -31,7 +31,7 @@ DNS-over-HTTPS proxy of aaflalo-me hosted in Google Cloud Platform.
 
 Non-logging, AD-filtering, supports DNSSEC.
 
-sdns://AgMAAAAAAAAADTM1LjIyNy4zMi4yMjcgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgSZG5zLWdjcC5hYWZsYWxvLm1lCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADDM1LjIzMS42OS43NyA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBJkbnMtZ2NwLmFhZmxhbG8ubWUKL2Rucy1xdWVyeQ
 
 ## aaflalo-me
 
@@ -46,25 +46,37 @@ sdns://AgMAAAAAAAAADjE3Ni41Ni4yMzYuMTc1ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aP
 
 Adguard DNS with safesearch and adult content blocking
 
-sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
 
 ## adguard-dns
 
 Remove ads and protect your computer from malware
 
-sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
+sdns://AQMAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
+
+## adguard-dns-family-doh
+
+Adguard DNS with safesearch and adult content blocking (over DoH)
+
+sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMiD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EhZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
+
+## adguard-dns-doh
+
+Remove ads and protect your computer from malware (over DoH)
+
+sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
 
 ## adguard-dns-family-ipv6
 
 Adguard DNS with safesearch and adult content blocking
 
-sdns://AQIAAAAAAAAAGlsyYTAwOjVhNjA6OmJhZDI6MGZmXTo1NDQzIIwhF6nrwVfW-2QFbwrbwRxdg2c0c8RuJY2bL1fU7jUfITIuZG5zY3J5cHQuZmFtaWx5Lm5zMi5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAGlsyYTAwOjVhNjA6OmJhZDI6MGZmXTo1NDQzIIwhF6nrwVfW-2QFbwrbwRxdg2c0c8RuJY2bL1fU7jUfITIuZG5zY3J5cHQuZmFtaWx5Lm5zMi5hZGd1YXJkLmNvbQ
 
 ## adguard-dns-ipv6
 
 Remove ads and protect your computer from malware
 
-sdns://AQIAAAAAAAAAGVsyYTAwOjVhNjA6OmFkMjowZmZdOjU0NDMggdAC02pMpQxHO3R5ZQ_hLgKzIcthOFYqII5APf3FXpQiMi5kbnNjcnlwdC5kZWZhdWx0Lm5zMi5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAGVsyYTAwOjVhNjA6OmFkMjowZmZdOjU0NDMggdAC02pMpQxHO3R5ZQ_hLgKzIcthOFYqII5APf3FXpQiMi5kbnNjcnlwdC5kZWZhdWx0Lm5zMi5hZGd1YXJkLmNvbQ
 
 ## arvind-io
 
@@ -74,6 +86,19 @@ Hosted in Bangalore, India.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AQcAAAAAAAAAEjEzOS41OS4xNi4xMzA6NTM1MyCORifHOIOoUQMIIbpa5-XQQfSq75W3gpAWy2Udh8MoyRkyLmRuc2NyeXB0LWNlcnQuYXJ2aW5kLmlv
+
+## bottlepost-dns-nl
+
+Provided by bottlepost.me
+Hosted in The Netherlands, DNSSEC / No Logs / No Filter
+
+sdns://AQcAAAAAAAAAEzE3OC4xMjguMjU1LjI4OjUzNTMgkr1k-Lp2d9IXiFlXoBAgFGZUCJSPW_x81Ec6ShkPsJYdMi5kbnNjcnlwdC1jZXJ0LmJvdHRsZXBvc3QubWU
+
+## brasil.dnscrypt-tupi.org-doh
+
+DNSSEC validation, caching, no IPv6, non-logging, non-filtering, uncensored DNS server in Brazil. DNSCrypt, DoH, DoT protocols. More info https://dnscrypt-tupi.org/
+
+sdns://AgcAAAAAAAAADjE5MS4yNTIuMTAwLjM1ABVkbnMuZG5zY3J5cHQtdHVwaS5vcmcKL2Rucy1xdWVyeQ
 
 ## captnemo-in
 
@@ -141,18 +166,6 @@ provided by cryptostorm.is
 
 sdns://AQIAAAAAAAAADzE2Mi4yMjEuMjA3LjIyOCAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
 
-## cs-cfi
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADTIxMi44My4xNzUuMzEgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
-## cs-ch
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADTE4NS42MC4xNDcuNzcgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
 ## cs-de
 
 provided by cryptostorm.is
@@ -177,12 +190,6 @@ provided by cryptostorm.is
 
 sdns://AQIAAAAAAAAADjE4NS4xMTcuMTE4LjIwIDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
 
-## cs-fr
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADTIxMi4xMjkuNDYuODYgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
 ## cs-fr2
 
 provided by cryptostorm.is
@@ -194,12 +201,6 @@ sdns://AQIAAAAAAAAADTIxMi4xMjkuNDYuMzIgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbq
 provided by cryptostorm.is
 
 sdns://AQIAAAAAAAAADTgwLjIzMy4xMzQuNTIgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
-## cs-nl
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADjIxMy4xNjMuNjQuMjA4IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
 
 ## cs-pl
 
@@ -237,12 +238,6 @@ provided by cryptostorm.is
 
 sdns://AQIAAAAAAAAADjE3My4yMzQuNTYuMTE1IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
 
-## cs-ussouth2
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADTEwOC42Mi4xOS4xMzEgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
 ## cs-uswest
 
 provided by cryptostorm.is
@@ -255,23 +250,11 @@ provided by cryptostorm.is
 
 sdns://AQIAAAAAAAAADzEwNC4yMzguMTk1LjEzOSAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
 
-## cs-uswest5
-
-provided by cryptostorm.is
-
-sdns://AQIAAAAAAAAADTE3My4yMDguOTUuNzUgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
 ## d0wn-is-ns2
 
 Server provided by Martin 'd0wn' Albus
 
 sdns://AQcAAAAAAAAADTkzLjk1LjIyNi4xNjUghGA0qcYwyjwErEqQFiXxeoeyrLlBgKxIHiwQ6M7eGm8cMi5kbnNjcnlwdC1jZXJ0LmlzMi5kMHduLmJpeg
-
-## d0wn-nl-ns4
-
-Server provided by Martin 'd0wn' Albus
-
-sdns://AQcAAAAAAAAADTMxLjIyMC40My4xMDUgKk9DiVzmMjC0xXalrDhkGE0SaUmxYP2wkWartM7GBnIcMi5kbnNjcnlwdC1jZXJ0Lm5sNC5kMHduLmJpeg
 
 ## d0wn-tz-ns1
 
@@ -298,6 +281,12 @@ Uncensored DNSSEC validating and log-free
 
 sdns://AQcAAAAAAAAAFDE5OS4xNjcuMTMwLjExODo1MzUzIHT3RVUXvCb3EXflbXKTJ4hscpFbP0YoMD-RDEfDjoJ5HTIuZG5zY3J5cHQtY2VydC5kbnNjcnlwdC5jYS0x
 
+## dnscrypt.ca-1-ipv6
+
+Uncensored DNSSEC validating and log-free
+
+sdns://AQcAAAAAAAAAH1syNjA1OjIxMDA6MDoxOjo3MzRkOjc4NzZdOjUzNTMgie_Aik8Gbx0Yhl3AXGNrjkhIIuR2hdxG8wSccOyE5podMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTE
+
 ## dnscrypt.ca-2
 
 Uncensored DNSSEC validating and log-free
@@ -308,7 +297,7 @@ sdns://AQcAAAAAAAAAFDE5OS4xNjcuMTI4LjExMjo1MzUzIEPVLIJZIpbC22-NSM4iT9zHJibhBvbji
 
 Uncensored DNSSEC validating and log-free
 
-sdns://AQcAAAAAAAAAH1syNjA1OjIxMDA6MDoxOjpiNWFkOjE4ZTJdOjUzNTMgQ9UsglkilsLbb41IziJP3McmJuEG9uOIYZP6AJApYxsdMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTI
+sdns://AQcAAAAAAAAAH1syNjA1OjIxMDA6MDoxOjpiNWFkOjE4ZTJdOjUzNTMg5DtuKuW1dRp0BBgQ97rtLa9wScW38wTZSLyEgVkXmowdMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTI
 
 ## dnscrypt.eu-dk
 
@@ -389,7 +378,7 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany
 
 https://blahdns.com/
 
-sdns://AQMAAAAAAAAAEDIxNy42MS4wLjk3Ojg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 ## dnscrypt-de-blahdns-ipv6
 
@@ -397,7 +386,31 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany
 
 https://blahdns.com/
 
-sdns://AQMAAAAAAAAAG1syYTAzOmExNDA6MTA6MjQ2MTo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+
+## dnswarden-adult-filter-ipv4
+
+Blocks adult content, ads, trackers, phishing and malware sites. Enforces forcesafesearch on widely used search engines and youtube. DNSSEC enabled and no query logging. Hosted in Germany. By https://dnswarden.com
+
+sdns://AgMAAAAAAAAADDE1OS42OS4xNi41OAASZG9oMi5kbnN3YXJkZW4uY29tAS8
+
+## dnswarden-adult-filter-ipv6
+
+Blocks adult content, ads, trackers, phishing and malware sites. Enforces forcesafesearch on widely used search engines and youtube. DNSSEC enabled and no query logging. Hosted in Germany. By https://dnswarden.com
+
+sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjc1NDk6OjFdABJkb2gyLmRuc3dhcmRlbi5jb20BLw
+
+## dnswarden-normal-ipv4
+
+Blocks ads, trackers, phishing and malware sites. DNSSEC enabled and no query logging. Hosted in Germany. By https://dnswarden.com
+
+sdns://AgMAAAAAAAAADTk0LjEzMC4xODMuMTgAEmRvaDEuZG5zd2FyZGVuLmNvbQEv
+
+## dnswarden-normal-ipv6
+
+Blocks ads, trackers, phishing and malware sites. DNSSEC enabled and no query logging. Hosted in Germany. By https://dnswarden.com
+
+sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzBjOjQyYjI6OjFdABJkb2gxLmRuc3dhcmRlbi5jb20BLw
 
 ## doh-blahdns-de
 
@@ -405,7 +418,7 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany
 
 https://blahdns.com/
 
-sdns://AgMAAAAAAAAACzIxNy42MS4wLjk3ABJkb2guZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 ## doh-blahdns
 
@@ -418,9 +431,9 @@ sdns://AgMAAAAAAAAADjEwOC42MS4yMDEuMTE5AA9kb2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 ## doh-ibksturm
 
 doh-server (nginx - doh-httpproxy - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
-Hosted in Switzerland on a Banana Pi M64 by ibksturm, aka Andreas Ziegler
+Hosted in Switzerland by ibksturm, aka Andreas Ziegler
 
-sdns://AgcAAAAAAAAADzIxNy4xNjIuMjA2LjE3OAAYaWJrc3R1cm0uc3lub2xvZ3kubWU6ODUzCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADzIxNy4xNjIuMjA2LjE3OAAUaWJrc3R1cm0uc3lub2xvZ3kubWUKL2Rucy1xdWVyeQ
 
 ## eieiDNS
 
@@ -430,6 +443,13 @@ Warning: modifies your queries to include a copy of your network
 address when forwarding them to upstream servers.
 
 sdns://AgEAAAAAAAAADDEwMy44Ni40OS4zMSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRkb2gxLmVpZWlkbnMuY29tOjQ0MwovZG5zLXF1ZXJ5
+
+## ev-ca
+
+Non-logging, uncensored DNS resolver provided by evilvibes.com
+Hosted by: vultr.com - Location: Toronto, Canada
+
+sdns://AQcAAAAAAAAADjE0OS4yNDguNTEuMjEyIJqd7T8sjWmQU5pdBaP5FF2vX0xrz561gdeGrur3jCHfHTIuZG5zY3J5cHQtY2VydC5ldmlsdmliZXMuY29t
 
 ## ev-us
 
@@ -465,10 +485,24 @@ sdns://AgMAAAAAAAAADDE2Ny45OS4zMS42OSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24O
 
 ## ibksturm
 
-dnscrypt-server (dnscrypt-wrapper - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
-Hosted in Switzerland on a Banana Pi M64 by ibksturm, aka Andreas Ziegler
+dnscrypt-server (nginx - dnscrypt-wrapper - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
+Hosted in Switzerland by ibksturm, aka Andreas Ziegler
 
-sdns://AQcAAAAAAAAADzIxNy4xNjIuMjA2LjE3OCB2x0U7IXv1uDMjPD3ypxKY4xhAxu7bxJrlMs0vfeSV0BgyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0
+sdns://AQcAAAAAAAAADzIxNy4xNjIuMjA2LjE3OCCDqbk-RaofnMFcPfds4pwWaf-s4542cUr-GlEE-pR-uBkyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0u
+
+## id-gmail
+
+DNSCrypt server located in Singapore, provided by id-gmail.
+Filters out ads, trackers and malware, supports DNSSEC and doesn't log anything.
+
+sdns://AQMAAAAAAAAADTE0OS4yOC4xNTIuODEg75aAZujZlPBl2D7d0xru7fVthldGPkrKR83X_pfD1PYcMi5kbnNjcnlwdC1jZXJ0LmRucy50aWFyLmFwcA
+
+## id-gmail-doh
+
+DNS-over-HTTPS server located in Singapore, provided by id-gmail.
+Filters out ads, trackers and malware, supports DNSSEC and doesn't log anything.
+
+sdns://AgMAAAAAAAAACzQ1LjMyLjEwNS40ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4DGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
 
 ## ipredator
 
@@ -490,14 +524,6 @@ Location: Frankfurt, Germany
 By ethservices.
 
 sdns://AQUAAAAAAAAAEjk0LjI0Ny40My4yNTQ6NTM1MyDUQmYmXRg576Roac_42Ue6uQtQ664-FvA20PgVt_UIfigyLmRuc2NyeXB0LWNlcnQub3Blbm5pYzEuZXRoLXNlcnZpY2VzLmRl
-
-## opennic-famicoman
-
-OpenNIC • NoLogs • NoFilters
-Location: Amsterdam, Netherlands
-By famicoman.phillymesh.net
-
-sdns://AQYAAAAAAAAAEzE0Ni4xODUuMTc2LjM2OjUzNTMguI9IYFUXNpaj0r_g7MdhdRmP4BLhAbT-hpwenEw15082Mi5kbnNjcnlwdC1jZXJ0Lm9wZW5uaWMucGVlcjMuZmFtaWNvbWFuLnBoaWxseW1lc2gubmV0
 
 ## opennic-luggs
 
@@ -523,23 +549,11 @@ Second public DNS server in Canada operated by Luggs (IPv6)
 
 sdns://AQYAAAAAAAAAJFsyNjA3OjUzMDA6MTIwOmE4YToxNDI6NDoyMDU6NDddOjQ0MyC8v7fgUME9okIsALCxrJrWSMXCZLy2FwuIPXGKyG66CR8yLmRuc2NyeXB0LWNlcnQubnM0LmNhLmx1Z2dzLmNv
 
-## opennic-onic
+## powerdns-doh
 
-Public DNS server hosted at MIT (Cambridge, MA, USA) operated by jproulx
+By PowerDNS/Open-Xchange https://powerdns.org
 
-sdns://AQcAAAAAAAAADjEyOC41Mi4xMzAuMjA5IBKNsb3hDHyh1SsJH2M-mcGTfRT1-BKwy1s89cvMBHJyIjIuZG5zY3J5cHQtY2VydC5vbmljLmNzYWlsLm1pdC5lZHU
-
-## opennic-tumabox
-
-Public DNS server operated by TumaBox.org
-
-sdns://AQYAAAAAAAAAEjEzMC4yNTUuNzMuOTA6NTM1MyDVkXsRajUxFMI4qpmm6wwofPdoBUGsXb-ooCOeIoxbBg0yLnR1bWFib3gub3Jn
-
-## opennic-tumabox-ipv6
-
-Public DNS server operated by TumaBox.org
-
-sdns://AQYAAAAAAAAAG1syYTAyOmUwMDpmZmZkOjEzOTo6OV06NTM1MyDVkXsRajUxFMI4qpmm6wwofPdoBUGsXb-ooCOeIoxbBg0yLnR1bWFib3gub3Jn
+sdns://AgcAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBBkb2gucG93ZXJkbnMub3JnAS8
 
 ## publicarray-au
 
@@ -632,7 +646,23 @@ sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xd
 Non-logging, non-filtering, DNSSEC validating server in Los Angeles, California.
 Maintained by Evan Xu (@ex-git)
 
-sdns://AQcAAAAAAAAAEzE5OC4xNDguMTA1LjIwNjo4NTMgQBr-sZr8SDgaSZT9CbVOxFyNeLqFNhF1XiZJX2ZDwzwkMi5kbnNjcnlwdC1jZXJ0LmRucy5xdWFsaXR5b2xvZ3kuY29t
+sdns://AQcAAAAAAAAAEjE3My44Mi4yMzIuMjMyOjg1MyCPlK_22Cu9WRVyKgl-CZp2GXezsRDWizG-BHIzChok4iAyLmRuc2NyeXB0LWNlcnQucXVhbGl0eW9sb2d5LmNvbQ
+
+## rubyfish-ea
+
+Resolver in mainland China, forwarding queries for non-Chinese domains
+to upstream servers in East Asia.
+
+https://www.rubyfish.cn/
+sdns://AgUAAAAAAAAADzExNS4xNTkuMTU0LjIyNiA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
+
+## rubyfish-uw
+
+Resolver in mainland China, forwarding queries for non-Chinese domains
+to US-West.
+
+https://www.rubyfish.cn/
+sdns://AgUAAAAAAAAADDQ3Ljk5LjE2NS4zMSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
 
 ## scaleway-fr
 
@@ -646,13 +676,13 @@ sdns://AQcAAAAAAAAADjIxMi40Ny4yMjguMTM2IOgBuE6mBr-wusDOQ0RbsV66ZLAvo8SqMa4QY2oHk
 
 Uncensored and no logging (DNSCrypt protocol)
 
-sdns://AQcAAAAAAAAAEzE0Ni4xODUuMTY3LjQzOjUzNTMgs6WXaRRXWwSJ4Z-unEPmefryjFcYlwAxf3u0likfsJUcMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZWRucy5ldQ
+sdns://AQcAAAAAAAAAEzE0Ni4xODUuMTY3LjQzOjUzNTMg9J8sc01itoYxntB-aRlDOy8ThfQe-8ovF21ZCy5FPoYcMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZWRucy5ldQ
 
 ## securedns-ipv6
 
 Uncensored and no logging (IPv6, DNSCrypt protocol)
 
-sdns://AQcAAAAAAAAAIVsyYTAzOmIwYzA6MDoxMDEwOjplOWE6MzAwMV06NTM1MyCzpZdpFFdbBInhn66cQ-Z5-vKMVxiXADF_e7SWKR-wlRwyLmRuc2NyeXB0LWNlcnQuc2VjdXJlZG5zLmV1
+sdns://AQcAAAAAAAAAIVsyYTAzOmIwYzA6MDoxMDEwOjplOWE6MzAwMV06NTM1MyD0nyxzTWK2hjGe0H5pGUM7LxOF9B77yi8XbVkLLkU-hhwyLmRuc2NyeXB0LWNlcnQuc2VjdXJlZG5zLmV1
 
 ## securedns-doh
 
@@ -705,3 +735,33 @@ dnscrypt-server Docker image : DNSSEC/Non-logged/Uncensored
 Hosted in Germany
 
 sdns://AQcAAAAAAAAAGVsyYTAzOjQwMDA6YjoyMjM6OjFdOjg0NDMgcrQcuGXx2fhX6rmtaP6aPXj8gumVIrn4GIrn6aTB1fUfMi5kbnNjcnlwdC1jZXJ0Lnplcm9haW0uZGUtaXB2Ng
+
+## opennic-userspace
+
+Non-logging OpenNIC resolver in Melbourne, Australia - https://userspace.com.au
+
+sdns://AQYAAAAAAAAAEzEwMy4yMzYuMTYyLjExOTo0NDMgrAN5npeaXgUs0qL88HYBouapH6Vl2B3wcbQae5_HZYgpMi5kbnNjcnlwdC1jZXJ0Lm5zMDMubWVsLnVzZXJzcGFjZS5jb20uYXU
+
+## opennic-bongobow
+
+Non-logging OpenNIC resolver in Munich, Germany
+
+sdns://AQYAAAAAAAAAEjUuMTg5LjE3MC4xOTY6NTM1MyBUNSxVQDuC7pPEB_3CNESXDZpW7yK_z_nskJzNMiQyaygyLmRuc2NyeXB0LWNlcnQubnMxNi5kZS5kbnMub3Blbm5pYy5nbHVl
+
+## opennic-bongobow-ipv6
+
+Non-logging OpenNIC resolver in Munich, Germany
+
+sdns://AQYAAAAAAAAAIFsyYTAyOmMyMDc6MjAwODoyNTIwOjUzOjoxXTo1MzUzIFQ1LFVAO4Luk8QH_cI0RJcNmlbvIr_P-eyQnM0yJDJrKDIuZG5zY3J5cHQtY2VydC5uczE2LmRlLmRucy5vcGVubmljLmdsdWU
+
+## opennic-R4SAS
+
+Non-logging OpenNIC resolver in France
+
+sdns://AQYAAAAAAAAAETE1MS44MC4yMjIuNzk6NDQzIO4Y9lZnORlvodxu39dnm6mFruwTRnlmovbEga4Fyw3TIDIuZG5zY3J5cHQtY2VydC5vcGVubmljLmkycGQueHl6
+
+## opennic-R4SAS-ipv6
+
+Non-logging OpenNIC resolver in France
+
+sdns://AQYAAAAAAAAAG1syMDAxOjQ3MDoxZjE1OmI4MDo6NTNdOjQ0MyDuGPZWZzkZb6Hcbt_XZ5upha7sE0Z5ZqL2xIGuBcsN0yAyLmRuc2NyeXB0LWNlcnQub3Blbm5pYy5pMnBkLnh5eg
